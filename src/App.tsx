@@ -77,14 +77,14 @@ function App() {
         <p className="border-b-2 w-[30%]"></p>
         {!audioStarted ? (
           <img
-            src="../src/assets/play.svg"
+            src="./assets/play.svg"
             alt="play svg"
             onClick={() => speak(data?.slip.advice)}
             className="cursor-pointer w-[20px] h-[20px] "
           />
         ) : (
           <img
-            src="../src/assets/pause.svg"
+            src="./assets/pause.svg"
             alt="play svg"
             className="cursor-pointer w-[20px] h-[20px] "
           />
@@ -97,7 +97,7 @@ function App() {
           setChange((prev) => prev + 1);
         }}
       >
-        <img src="../src/assets/generate.svg" alt="generate svg" />
+        <img src="./assets/generate.svg" alt="generate svg" />
       </button>
     </div>
   );
